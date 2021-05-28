@@ -1,0 +1,12 @@
+
+    <nav>
+        <h1><a href="{{ site.baseurl }}/" title="home">Ana Alice Miranda</a></h1>
+        <a href="{{ site.baseurl }}/" title="home"></a>
+        <ul>
+            {% for navigation in site.data.navigation.docs %}
+            <li>
+                <a href="{{ site.baseurl }}/{{ navigation.url }}" title="Go to {{ navigation.title }}">{{ navigation.title }}</a>
+            </li> 
+            {% endfor %}
+        </ul>
+    </nav> 
