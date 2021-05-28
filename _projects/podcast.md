@@ -1,9 +1,22 @@
 ---
 title: Agora é que são elas - Podcast
-image_path: https://apef.pt/wp-content/uploads/2020/05/placeholder.png
+image_path: assets/images/podcast.png
+layout: projects
 ---
 
-The challenge was to create an online store that sold a product, with both mobile and desktop versions. 
-Both versions had to follow a design system with only one typeface and three main colors. 
-Throughout the product materialization process, the design system suffered consecutive changes until it gained its visual expression that reflected the brand's personality.
+<article>
 
+    <h1>Agora é que são elas Podcast</h1>
+
+    
+    <h2>The Challenge</h2>
+    <p>The challenge was to create a Cover for the Agora é que são elas Podcast. The goal was to translate the relaxed spirit of podcast conversations into the illustration. I created the cover concept,  and it was inspired by the two hosts and the dynamics of their conversation: a bath of immersion in their ideas, broadcast weekly. </p> 
+    
+    <p>You can listen the podcast on<a href="https://open.spotify.com/show/0VR9w1VFK4k06zsKTZYjA7" target="_blank" title="Listen the Podcast on Spotify"> Spotify</a>or<a href="https://podcasts.apple.com/pt/podcast/agora-%C3%A9-que-s%C3%A3o-elas-podcast/id1566715406" target="_blank" title="Listen the Podcast on Apple Podcast"> Apple Podcasts</a></p>
+        
+    <figure>
+        <img src="../assets/images/podcast.png" alt="Agora é que são elas podcast playing">
+    </figure>
+
+  
+</article>

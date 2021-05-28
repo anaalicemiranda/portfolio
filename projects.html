@@ -4,9 +4,9 @@ title: Projects
 ---
 <h1>Check out a few of my latest projects</h1>
 
-{% for projects in site.projects %}
+{% for project in site.projects %}
 <div class="projects">
-    <h2><a href="{{ projects.url }}"><img src="{{projects.image_path}}" alt="{{projects.title}}" /> </a> {{ projects.title }}</h2>
+    <h2><a href="{{ project.url | relative_url }}"><img src="{{project.image_path}}" alt="{{project.title}}" /> </a> {{ project.title }}</h2>
     
 </div>
 {% endfor %}

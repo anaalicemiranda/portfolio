@@ -2,10 +2,10 @@ docs_list_title: navigation
 docs:
 
 - title: About
-  url: about
+  url: about.html
 
 - title: Projects
-  url: projects
+  url: projects.html
 
 - title: Contacts
-  url: contacts
+  url: contacts.html
