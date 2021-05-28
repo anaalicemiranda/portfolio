@@ -1,8 +1,12 @@
 ---
 layout: page
 title: Projects
-permalink: "/projects/"
 ---
 <h1>Check out a few of my latest projects</h1>
 
-
+{% for projects in site.projects %}
+<div class="projects">
+    <h2><a href="{{ projects.url }}"><img src="{{projects.image_path}}" alt="{{projects.title}}" /> </a> {{ projects.title }}</h2>
+    
+</div>
+{% endfor %}
