@@ -5,11 +5,4 @@ permalink: "/projects/"
 ---
 <h1>Check out a few of my latest projects</h1>
 
-{% for projects in site.projects %}
 
-<div class="projects">
-<h2><img src="{{ projects.image_path}}" alt="{{ projects.title}}" />{{ projects.title}} </h2>
-{{ projects.content }}
-</div>
-
-{% endfor %}
