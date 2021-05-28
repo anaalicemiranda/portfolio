@@ -1,0 +1,38 @@
+<nav>
+    <h1>All projects</h1>
+    <ul>
+       {% for project in site.portfolio %}
+          <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+       {% endfor %}
+    </ul>
+    <hr>
+    <h3>Illustration projects</h3>
+       <ul>
+          {% for project in site.portfolio %}
+             {% if project.category == "Illustration" %}
+             <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+             {% endif %}
+          {% endfor %}
+       </ul>
+    <hr>
+    <h3>Editorial projects</h3>
+       <ul>
+          {% for project in site.portfolio %}
+             {% if project.category == "Editorial" %}
+             <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+             {% endif %}
+          {% endfor %}
+       </ul>
+    <hr>
+    <h3>Product Design projects</h3>
+       <ul>
+          {% for project in site.portfolio %}
+             {% if project.category == "Product Design" %}
+             <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+             {% endif %}
+          {% endfor %}
+       </ul>
+    <hr>
+ </nav>
+
+ <br>
