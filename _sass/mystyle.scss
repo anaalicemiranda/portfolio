@@ -1,0 +1,28 @@
+body {
+  background: red;
+}
+
+@media (min-width: 600px) {
+  body {
+    background: green;
+  }
+
+  .gallery ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    margin: 20px 20px;
+}
+
+.gallery li {
+    margin: 20px 0px;
+    flex-basis: calc(50% - 20px);  
+    
+}
+
+.gallery img {
+    width: 90%;                   
+    height: auto;
+}
+ 
+}
