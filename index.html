@@ -11,8 +11,15 @@ title: Home
     <div class="gallery">
     <ul>
     {% for project in site.projects %}
-        <li>
-            <a href="{{site.baseurl}}/{{project.url}}"><img src="{{project.image_path | relative_url}}" alt="{{project.title}}"></a></li>
+        <div class="overlay">
+            <li>
+            <a href="{{site.baseurl}}/{{project.url}}"><img src="{{project.image_path | relative_url}}" alt="{{project.title}}" class="image"></a></li>
+            <div class="middle">
+                <div class="text">
+                    <a href="{{site.baseurl}}/{{project.url}}">Check this project</a> </div>
+
+            </div>
+        </div>
     {% endfor%}
     </ul>
     </div>
