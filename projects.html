@@ -2,11 +2,17 @@
 layout: page
 title: Projects
 ---
-<h1>Check out a few of my latest projects</h1>
+<h1>Check out a few of my latest projects! </h1>
 
 {% for project in site.projects %}
 <div class="projects">
-    <h2><a href="{{ project.url | relative_url }}"><img src="{{project.image_path}}" alt="{{project.title}}" /> </a> {{ project.title }}</h2>
-    
+<h2>{{ project.title }}</h2>
+    <div class="layer">
+    <a href="{{ project.url | relative_url }}"><img src="{{project.image_path}}" alt="{{project.title}}" /></a> 
+    <div class="centered">
+        <div class="button">
+            <a href="{{site.baseurl}}/{{project.url}}">Check this project</a> </div>
+    </div>
+
 </div>
 {% endfor %}
