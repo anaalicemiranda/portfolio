@@ -6,14 +6,7 @@ title: Projects
 
 {% for project in site.projects %}
 <div class="projects">
-    <div class="overlay">
-    <h2>{{ project.title }}<a href="{{ project.url | relative_url }}"><img src="{{project.image_path}}" alt="{{project.title}}" /> </a> </h2>
-    <div class="middle">
-        <div class="text">
-            <a href="{{site.baseurl}}/{{project.url}}">Check this project</a> </div>
-        </div>
-
-    </div>
+    <h2><a href="{{ project.url | relative_url }}"><img src="{{project.image_path}}" alt="{{project.title}}" /> </a> {{ project.title }}</h2>
     
 </div>
 {% endfor %}
