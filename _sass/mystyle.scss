@@ -4,6 +4,43 @@
 body {
   background: red;
 }
+
+/* navigation */
+
+nav h1 {
+  margin-left: 10%;
+  margin-top: 5%;
+  float: left;
+}
+
+nav h1 a {
+  color: white;
+  font-size: 3vh;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+  padding: 2vh;
+  margin-top: 15%;
+  margin-right: 10%;
+}
+
+nav li a {
+  color: white;
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 3vh;
+
+}
+
 /* homepage */
 h1 {
   margin-left: 10%;
@@ -43,6 +80,50 @@ h1 {
 @media (min-width: 750px) {
   body {
     background: blue;
+  }
+
+  /* navigation */
+
+  nav h1 {
+    margin-left: 10%;
+    margin-top: 5%;
+    float: left;
+  }
+
+  nav h1 a {
+    color: white;
+    font-size: 4vh;
+    
+  }
+
+  nav h1 a:hover {
+    color: blue;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: right;
+    padding: 2vh;
+    margin-top: 5%;
+    margin-right: 10%;
+    z-index: 1;
+  }
+  
+  nav li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 4vh;
+  
+  }
+
+  nav li a:hover {
+    color: blue;
   }
 
   /* homepage */
