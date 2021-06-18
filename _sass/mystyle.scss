@@ -111,20 +111,6 @@ h2 {
   color: white;
 }
 
-/*
-.gallery ul {
-  display: flex;
-  flex-flow: row wrap;
-  list-style: none;
-  margin: 10px 10px;
-}
-
-.gallery li {
-  margin: 10px 10px;
-  flex-basis: calc(80% - 20px);  
-  
-}
-*/
 .projects {
   display: block;
   margin: 0 auto;
@@ -311,9 +297,7 @@ footer li {
   outline-style: solid;
   outline-color: white;
   margin-right: 30px;
-  width: 80vw;
-  line-height: 6vh;
-  
+  width: 80vw; 
   
 }
 
@@ -325,7 +309,6 @@ footer li:hover {
   transition: background-color 1s;
   outline-style: solid;
   outline-color: white;
-  margin-right: 30px;
 
 }
 
