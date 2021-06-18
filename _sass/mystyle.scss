@@ -231,12 +231,69 @@ h1 {
   66.64%,79.3% {transform:translate3d(0,-50%,0);}
   83.3%,95.96% {transform:translate3d(0,-25%,0);}
 }
+/* footer */
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer ul {
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color: #000000;
+  outline-style: solid;
+  outline-color: white;
+  margin-right: 30px;
+  width: 80vw;
+  line-height: 6vh;
+  
+  
+}
+
+footer li:hover {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color: blue;
+  transition: background-color 1s;
+  outline-style: solid;
+  outline-color: white;
+  margin-right: 30px;
+
+}
+
+footer a {
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 2.6vw;
+}
+
+footer h3 {
+  margin-top: 3vh;
+  text-align: center;
+  font-size: 3vw;
+}
+
+
 
 /* bigger screens */
 
 @media (min-width: 750px) {
   body {
-    background: blue;
+    background: black;
   }
 
   /* navigation */
@@ -255,6 +312,8 @@ h1 {
 
   nav h1 a:hover {
     color: blue;
+    font-style: italic;
+    
   }
 
   nav ul {
@@ -281,6 +340,7 @@ h1 {
 
   nav li a:hover {
     color: blue;
+    font-style: italic;
   }
 
   /* homepage */
@@ -341,6 +401,7 @@ h1 {
 
 .overlay:hover .middle {
   opacity: 1;
+ 
 }
 
 .text {
@@ -351,6 +412,8 @@ h1 {
   width: 60%;
   margin: 0 auto;
 }
+
+
 
 /* contacts */
 
@@ -597,6 +660,58 @@ margin: 0 auto;
   49.98%,62.64% {transform:translate3d(0,-75%,0);}
   66.64%,79.3% {transform:translate3d(0,-50%,0);}
   83.3%,95.96% {transform:translate3d(0,-25%,0);}
+}
+
+/* footer */
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+footer ul {
+  margin: 0 auto;
+  align-content: center;
+}
+
+footer li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color: #000000;
+  outline-style: solid;
+  outline-color: white;
+  margin-right: 30px;
+  width: 150px;
+  line-height: 60px;
+  font-size: 2vw;
+  
+}
+
+footer li:hover {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color: blue;
+  transition: background-color 1s;
+  outline-style: solid;
+  outline-color: white;
+  
+}
+
+footer a {
+  color: white;
+  font-size: 2vw;
+}
+
+footer h3 {
+  margin-top: 2vh;
+  text-align: center;
+  font-size: 2vw;
 }
 
 }
