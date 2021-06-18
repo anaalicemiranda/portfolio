@@ -328,7 +328,7 @@ footer li {
   outline-style: solid;
   outline-color: white;
   margin-right: 30px;
-  width: 80vw; 
+  width: 40vw; 
   
 }
 
@@ -375,7 +375,7 @@ footer h3 {
 
   nav h1 a {
     color: white;
-    font-size: 4vh;
+    font-size: 2.6vw;
     
   }
 
@@ -403,7 +403,7 @@ footer h3 {
     color: white;
     display: block;
     text-decoration: none;
-    font-size: 4vh;
+    font-size: 2.6vw;
   
   }
 
@@ -765,17 +765,19 @@ article img:hover {
 /* footer */
 
 footer {
-  left: 0;
-  bottom: 0;
+  margin: 0 auto;
+  float:right;
   width: 100%;
   background-color: black;
   color: white;
-  text-align: center;
+  
 }
 
 footer ul {
-  margin: 0 auto;
   align-content: center;
+  position: relative;
+  left: 22%
+  
 }
 
 footer li {
@@ -786,7 +788,7 @@ footer li {
   outline-style: solid;
   outline-color: white;
   margin-right: 30px;
-  width: 150px;
+  width: 10vw;
   line-height: 60px;
   font-size: 2vw;
   
