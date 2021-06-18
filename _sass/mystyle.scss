@@ -3,7 +3,7 @@
 
 
 body {
-  background: black;
+  background: $background-color;
   font-family: $text;
 }
 
@@ -16,7 +16,7 @@ nav h1 {
 }
 
 nav h1 a {
-  color: white;
+  color: $text;
   line-height: 3vw;
   
   
@@ -29,7 +29,7 @@ nav ul {
 }
 
 nav a {
-  color: white;
+  color: $text;
   display: block;
   text-decoration: underline;
   font-size: 3vw;
@@ -41,7 +41,7 @@ nav a {
 h1 {
   margin-left: 10%;
   max-width: 56%;
-  color: white;
+  color: $text;
   font-size: 6vw;
 }
 .gallery ul {
@@ -63,8 +63,8 @@ h1 {
 }
 
 .text {
-  background-color: #FCFBFA;
-  color: black;
+  background-color: $text;
+  color: $background-color;
   font-size: 16px;
   padding: 18px 18px;
   width: 25%;
@@ -82,7 +82,7 @@ h1 {
 .contacts h1 {
   max-width: 80%;
   font-size: 4vh;
-  color: white;
+  color: $text;
 }
 
 .contacts ul {
@@ -92,12 +92,12 @@ h1 {
 
 .contacts ul li {
   font-size: 3vh;
-  color: white;
+  color: $text;
 }
 
 .contacts a {
   text-decoration: underline;
-  color: white;
+  color: $text;
 
 }
 
@@ -106,14 +106,14 @@ h1 {
 h1 {
   margin-left: 10%;
   max-width: 56%;
-  color: white;
+  color: $text;
   font-size: 6vw;
 }
 
 h2 {
   font-size: 5vh;
   margin-left: 10%;
-  color: white;
+  color: $text;
 }
 
 .projects {
@@ -129,8 +129,8 @@ h2 {
 }
 
 .centered {
-  background-color: #FCFBFA;
-  color: black;
+  background-color: $text;
+  color: $background-color;
   font-size: 16px;
   padding: 18px 18px;
   width: 25%;
@@ -145,7 +145,7 @@ h2 {
   margin-left: 10%;
   margin-top: 18%;
   max-width: 80%;
-  color: white;
+  color: $text;
   font-size: 3vh;
 }
 
@@ -155,13 +155,13 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   height: 60px;
-  overflow:hidden;
+  overflow: hidden;
   
   font-family: 'Lato', sans-serif;
   font-size: 3vh;
   line-height: 3vh;
   width: 90vw;
-  color: #ecf0f1;
+  color: $text;
   
   &__container {
     font-weight: 600;
@@ -184,7 +184,7 @@ h2 {
       position: absolute;
       top: 0;
       
-      color: black;
+      color: $background-color;
       font-size: 3vh;
       line-height: 40px;
       
@@ -282,7 +282,7 @@ h2 {
 /* project individual page*/
 
 article {
-  color: white;
+  color: $text;
   margin-left: 5%;
   align-content: center;
 }
@@ -315,8 +315,8 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: black;
-  color: white;
+  background-color: $background-color;
+  color: $text;
   display: inline-block;
   vertical-align: middle;
 }
@@ -330,9 +330,9 @@ footer li {
   float: left;
   list-style: none;
   text-align: center;
-  background-color: #000000;
+  background-color: $background-color;
   outline-style: solid;
-  outline-color: white;
+  outline-color: $text;
   margin-right: 30px;
   width: 40vw;
   margin-top: 5vh;
@@ -343,15 +343,15 @@ footer li:hover {
   float: left;
   list-style: none;
   text-align: center;
-  background-color: blue;
+  background-color: $accent-color;
   transition: background-color 1s;
   outline-style: solid;
-  outline-color: white;
+  outline-color: $text;
 
 }
 
 footer a {
-  color: white;
+  color: $text;
   display: inline-block;
   vertical-align: middle;
   font-size: 2.6vw;
@@ -369,7 +369,7 @@ footer h3 {
 
 @media (min-width: 750px) {
   body {
-    background: black;
+    background: $background-color;
   }
 
   /* navigation */
@@ -381,13 +381,13 @@ footer h3 {
   }
 
   nav h1 a {
-    color: white;
+    color: $text;
     font-size: 2.6vw;
     
   }
 
   nav h1 a:hover {
-    color: blue;
+    color: $accent-color;
     font-style: italic;
     
   }
@@ -473,7 +473,7 @@ footer h3 {
 
 .overlay:hover .image {
   opacity: 0.5;
-  color: black;
+  color: $background-color;
 }
 
 .overlay:hover .middle {
@@ -482,8 +482,8 @@ footer h3 {
 }
 
 .text {
-  background-color: #FCFBFA;
-  color: black;
+  background-color: $text;
+  color: $background-color;
   font-size: 16px;
   padding: 16px 32px;
   width: 60%;
@@ -534,13 +534,13 @@ h1 {
   margin-left: 10%;
   max-width: 56%;
   font-size: 5vh;
-  color: white;
+  color: $text;
 }
 
 h2 {
   font-size: 4vh;
   margin-left: 10%;
-  color: white;
+  color: $text;
 }
 
 .projects {
@@ -586,7 +586,7 @@ align-content: center;
 
 .layer:hover img {
 opacity: 0.5;
-color: black;
+color: $background-color;
 }
 
 .layer:hover .centered {
@@ -594,8 +594,8 @@ opacity: 1;
 }
 
 .button {
-background-color: #FCFBFA;
-color: black;
+background-color: $text;
+color: $background-color;
 font-size: 16px;
 padding: 16px 32px;
 width: 60%;
@@ -609,7 +609,7 @@ margin: 0 auto;
   margin-left: 12%;
   margin-top: 15%;
   max-width: 60%;
-  color: white;
+  color: $text;
   font-size: 3vh;
 }
 
@@ -624,7 +624,7 @@ margin: 0 auto;
   font-family: 'Lato', sans-serif;
   font-size: 5vh;
   width: 80vw;
-  color: #ecf0f1;
+  color: $text;
   
   &__container {
     font-weight: 600;
@@ -647,7 +647,7 @@ margin: 0 auto;
       position: absolute;
       top: 0;
       
-      color: black;
+      color: $background-color;
       font-size: 3vh;
       line-height: 40px;
       
@@ -745,7 +745,7 @@ margin: 0 auto;
 /* project individual page*/
 
 article {
-  color: white;
+  color: $text;
   margin-left: 10%;
 }
 article h1 {
@@ -768,7 +768,7 @@ article img {
 }
 
 article img:hover {
-  box-shadow: 6px 6px 6px blue;
+  box-shadow: 6px 6px 6px $accent-color;
   transition: box-shadow 1s;
 }
 
@@ -778,8 +778,8 @@ footer {
   margin: 0 auto;
   float:right;
   width: 100%;
-  background-color: black;
-  color: white;
+  background-color: $background-color;
+  color: $text;
   
 }
 
@@ -794,9 +794,9 @@ footer li {
   float: left;
   list-style: none;
   text-align: center;
-  background-color: #000000;
+  background-color: $background-color;
   outline-style: solid;
-  outline-color: white;
+  outline-color: $text;
   margin-right: 30px;
   width: 10vw;
   line-height: 60px;
@@ -808,15 +808,15 @@ footer li:hover {
   float: left;
   list-style: none;
   text-align: center;
-  background-color: blue;
+  background-color: $accent-color;
   transition: background-color 1s;
   outline-style: solid;
-  outline-color: white;
+  outline-color: $text;
   
 }
 
 footer a {
-  color: white;
+  color: $text;
   font-size: 2vw;
 }
 
