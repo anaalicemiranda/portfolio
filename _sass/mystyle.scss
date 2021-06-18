@@ -10,6 +10,7 @@ body {
 nav h1 {
   text-align: center;
   margin: 0 auto;
+  font-size: 3wv;
 }
 
 nav h1 a {
@@ -25,11 +26,11 @@ nav ul {
   margin: 0 auto;
 }
 
-nav li a {
+nav a {
   color: white;
   display: block;
   text-decoration: underline;
-  font-size: 4vw;
+  font-size: 3vw;
   line-height: 4.6vw;
 
 }
@@ -38,6 +39,8 @@ nav li a {
 h1 {
   margin-left: 10%;
   max-width: 56%;
+  color: white;
+  font-size: 6vw;
 }
 .gallery ul {
   display: flex;
@@ -91,6 +94,58 @@ h1 {
   text-decoration: underline;
   color: white;
 
+}
+
+/* projects*/
+
+h1 {
+  margin-left: 10%;
+  max-width: 56%;
+  color: white;
+  font-size: 6vw;
+}
+
+h2 {
+  font-size: 5vh;
+  margin-left: 10%;
+  color: white;
+}
+
+/*
+.gallery ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  margin: 10px 10px;
+}
+
+.gallery li {
+  margin: 10px 10px;
+  flex-basis: calc(80% - 20px);  
+  
+}
+*/
+.projects {
+  display: block;
+  margin: 0 auto;
+  align-content: center;
+  
+}
+
+.projects img {
+  width: 100%;                   
+  height: auto;
+}
+
+.centered {
+  background-color: #FCFBFA;
+  color: black;
+  font-size: 16px;
+  padding: 18px 18px;
+  width: 25%;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
 }
 
 /* about */
@@ -348,6 +403,7 @@ footer h3 {
   h1 {
     margin-left: 5%;
     max-width: 56%;
+    font-size:4vw;
   }
 
   .gallery ul {
