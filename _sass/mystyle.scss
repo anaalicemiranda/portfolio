@@ -278,6 +278,7 @@ h2 {
 article {
   color: white;
   margin-left: 5%;
+  align-content: center;
 }
 article h1 {
   font-size: 5vw;
@@ -291,12 +292,14 @@ article p {
   margin-left: 10%;
   font-size: 3vw;
   max-width: 80%;
+  text-align: left;
 }
 
 article img {
   max-width: 90%;
   height: auto;
 }
+
 
 
 
@@ -727,6 +730,36 @@ margin: 0 auto;
   49.98%,62.64% {transform:translate3d(0,-75%,0);}
   66.64%,79.3% {transform:translate3d(0,-50%,0);}
   83.3%,95.96% {transform:translate3d(0,-25%,0);}
+}
+
+/* project individual page*/
+
+article {
+  color: white;
+  margin-left: 10%;
+}
+article h1 {
+  font-size: 4vw;
+}
+
+article h2 {
+  font-size: 3vw;
+}
+
+article p {
+  margin-left: 10%;
+  font-size: 2vw;
+  max-width: 70%;
+}
+
+article img {
+  max-width: 90%;
+  height: auto;
+}
+
+article img:hover {
+  box-shadow: 6px 6px 6px blue;
+  transition: box-shadow 1s;
 }
 
 /* footer */
